@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Product Details</title>
+</head>
+
+<body>
+    <!-- header -->    
+    <div class="container">
+        <div class="navbar">            
+            <nav>
+                <ul id="menuItems">
+                    <li class="intro">Catalog / Sneakers / Free Trainer 3 / MMW</li>
+                </ul>
+            </nav>
+            <img src="./cart.png" width="30px" height="30px">            
+        </div>            
+    </div>    
+    <!-- fin header -->
+
+    <!-- product detais -->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <!-- main image -->
+                <img src="" width="100%" id="productImg">
+
+                <!-- miniaturas -->
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <!-- info-section -->
+            <div class="col-2" id="info-section">
+                <p class="gray-text">by Nike x ALYX</p>
+                <!-- ⬇ nombre -->
+                <h1></h1>
+                <!-- ⬇ precio & precio maximo-->
+                <div class="prices">
+                    <span class="precio"></span>
+                    <span class="precio-maximo"></span>
+                </div>
+                <hr>
+
+                <!-- color control -->
+                <div class="color-control row-info">
+                    <div class="col-1-info">
+                        Color:
+                    </div>
+                    <div class="col-2-info">
+                        <input type="radio" name="radio-color" class="radio1">
+                        <input type="radio" name="radio-color" class="radio2">
+                        <input type="radio" name="radio-color" class="radio3">
+                    </div>
+                </div>
+                <!-- color control end -->
+                <hr>
+                <!-- size control -->
+                <div class="size-control">
+                    <br>
+                    <div class="col-1-info">
+                        Size:
+                    </div>
+                    <div class="page-btn col-2-info"></div>
+                </div>
+                <!-- size control end -->
+                <hr>
+                <!-- cantidad control -->
+                <div class="row-cantidad">
+                    <div>
+                        <a class="btn-plus" onclick="aumentar()">
+                            +
+                        </a>
+                        <span class="bloq">1</span>
+                        <a class="btn-plus" onclick="disminuir()">
+                            -
+                        </a>
+                    </div>
+                    <div>
+                        <span class="gray-text">Total-price</span> <span style="font-weight: bold">$</span> <span class="total">28500</span>
+                    </div>
+                </div>
+                <!-- cantidad control end -->
+                                
+                <a href="" class="btn-fav">Add to fauvorite</a>
+                <a href="" class="btn-add">Add to cart</a>
+                <br>
+                <!-- ⬇ descripcion -->
+                <div id="description"></div>
+            </div>
+            <!-- info-section end -->
+        </div>
+    </div>
+    <!-- product detais end -->
+    
+    <!-- <script src="./js/app.js"></script> -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
