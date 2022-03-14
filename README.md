@@ -1,4 +1,4 @@
-# Frontend sample
+# GradiTest
 
 sitio en vivo: https://elastic-noether-e07bb9.netlify.app/
 
